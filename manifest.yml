@@ -1,0 +1,7 @@
+---
+applications:
+- name: bpw-complaints-fe
+  memory: 1024M
+  instances: 1
+  random-route: false
+  host: bpw-complaints-fe

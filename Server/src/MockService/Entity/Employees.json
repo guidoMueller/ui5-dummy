@@ -1,0 +1,44 @@
+{
+  "__metadata": {
+    "uri": "http://localhost:3000/odata/service.svc/Employees/Employees(1)",
+    "type": "NorthwindModel.Employee"
+  },
+  "EmployeeID": 1,
+  "LastName": "Davolio",
+  "FirstName": "Nancy",
+  "Title": "Sales Representative",
+  "TitleOfCourtesy": "Ms.",
+  "BirthDate": "\/Date(-664761600000)\/",
+  "HireDate": "\/Date(704678400000)\/",
+  "Address": "507 - 20th Ave. E.\r\nApt. 2A",
+  "City": "Seattle",
+  "Region": "WA",
+  "PostalCode": "98122",
+  "Country": "USA",
+  "HomePhone": "(206) 555-9857",
+  "Extension": "5467",
+  "Notes": "Education includes a BA in psychology from Colorado State University in 1970.  She also completed \"The Art of the Cold Call.\"  Nancy is a member of Toastmasters International.",
+  "ReportsTo": 2,
+  "PhotoPath": "http://accweb/emmployees/davolio.bmp",
+  "Employees1": {
+    "__deferred": {
+      "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Employees(1)/Employees1"
+    }
+  },
+  "Employee1": {
+    "__deferred": {
+      "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Employees(1)/Employee1"
+    }
+  },
+  "Orders": {
+    "__deferred": {
+      "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Employees(1)/Orders"
+    }
+  },
+  "Territories": {
+    "__deferred": {
+      "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Employees(1)/Territories"
+    }
+  }
+}
+

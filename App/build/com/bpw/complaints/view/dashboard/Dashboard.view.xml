@@ -1,0 +1,19 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	controllerName="com.bpw.complaints.controller.dashboard.Dashboard"
+	xmlns:bpwControls="com.bpw.complaints.control">
+
+    <Page showHeader="false">
+        <content>
+			<bpwControls:DemoBox width="200px">
+				<Label text="Well well well test" />
+				<Input value="we have a container" />
+				<bpwControls:Switch state="true"
+									customTextOn="Yes"
+									customTextOff="No"
+									editable="true"/>
+			</bpwControls:DemoBox>
+        </content>
+    </Page>
+</mvc:View>

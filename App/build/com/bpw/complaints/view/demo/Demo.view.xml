@@ -1,0 +1,43 @@
+<mvc:View
+        xmlns="sap.ui.table"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:u="sap.ui.unified"
+        xmlns:c="sap.ui.core"
+        xmlns:m="sap.m"
+        height="100%"
+        controllerName="com.bpw.complaints.controller.demo.Demo">
+
+    <m:Page
+            showHeader="false"
+            enableScrolling="false"
+            class="sapUiContentPadding">
+        <m:content>
+            <Table
+                    rows="{/Employees}"
+                    selectionMode="MultiToggle"
+                    visibleRowCount="7"
+                    paste="onPaste">
+                <extension>
+                    <m:OverflowToolbar>
+                        <m:Title id="title" text="Products"/>
+                    </m:OverflowToolbar>
+                </extension>
+                <columns>
+                    <Column width="11rem">
+                        <m:Label text="LastName" />
+                        <template>
+                            <m:Text text="{LastName}" wrapping="false" />
+                        </template>
+                    </Column>
+                    <Column width="11rem">
+                        <m:Label text="FirstName" />
+                        <template>
+                            <m:Input value="{FirstName}"/>
+
+                        </template>
+                    </Column>
+                </columns>
+            </Table>
+        </m:content>
+    </m:Page>
+</mvc:View>
